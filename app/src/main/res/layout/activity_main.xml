@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation = "vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cullendevelopment.android.singlescreenbusinesscard.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_weight="0"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:text="@string/header"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/pcpheader" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_weight="0"
+        android:textAlignment="center"
+        android:text="@string/genre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#1A237E"
+        android:textStyle="bold"
+        android:layout_weight="0"
+        android:text="@string/address"
+        />
+
+    <Button
+        android:id="@+id/webLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:onClick="webLink"
+        android:textColor="#1A237E"
+        android:text = "@string/PCP"/>
+
+</LinearLayout>

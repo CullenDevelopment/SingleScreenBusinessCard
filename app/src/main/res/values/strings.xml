@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SingleScreenBusinessCard</string>
+    <string name="PCP">www.paulcullenphotography.com</string>
+    <string name ="address">Paul Cullen Photography \n22, Longlands Road, \nBeeston, \nNottingham \nNG9 1LR, \n+44 (0)744 799 7061</string>
+    <string name="header">Paul Cullen Photography</string>
+    <string name="genre">Landscape, Fine-Art and Stock, \nPhotography.</string>
+</resources>
